@@ -1,0 +1,95 @@
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100% }
+	
+header {
+	background-color: black;
+	width: 100%;
+	height: 2em;
+}
+ul {
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 4px; 
+}
+li {
+	display: inline;
+	font-size: 10pt;
+	padding: 5px 5px 5px 5px;
+
+}
+header ul li a {
+	text-decoration: none;
+	color: #bbbbbb;
+	font-family: sans-serif;
+}
+header ul li a:hover {
+	color: white;
+	text-decoration: none;
+}
+header button {
+	display: inline-block;
+	float: right;
+	font-size: 10pt;
+	color: #bbbbbb;
+	background-color: black;
+	border: 1px solid black;
+	padding-right: 5px;
+	margin-top: 5px;
+}
+header button:hover {
+	color: white;
+}
+img {
+	display: block;
+	height: 95px;
+	width: 269px;
+	padding-top: 150px;
+}
+
+.searchbox {
+	display: block;
+	height: 27px;
+	width: 500px;
+	margin: 8px auto 3px auto;
+}
+.button {
+	display: inline-block;
+	font-size: 10pt;
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
+	margin: 2px;
+	padding: 3px;
+	color: #333;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0);
+	border-radius: 2px;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	background-color: #f2f2f2;
+	height: 2.5em;
+	width: 100%;
+	margin-top: -2.5em;
+}
+footer ul {
+	padding-top: 10px;
+}
+footer ul li a {
+	text-decoration: none;
+	color: #666;
+	font-family: sans-serif;
+}
+footer ul li a:hover {
+	text-decoration: underline;
+}
+
+.leftfoot {
+	float: left;
+	padding-left: 4px;
+}
+.rightfoot {
+	float: right;
+	padding-right: 5px;
+}
